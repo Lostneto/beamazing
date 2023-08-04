@@ -1,0 +1,93 @@
+body {
+  background: linear-gradient(135deg, #1e5799 0%, #2989d8 51%, #7db9e8 100%);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+/* Estilo para o fundo da área de conteúdo */
+.app {
+  background-color: rgb(40, 33, 31) !important;
+
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.shirt-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: white;
+  width: calc(25% - 20px);
+  margin-bottom: 20px;
+}
+
+.shirt-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.shirt-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.shirt-card h2 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.shirt-card p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.shirt-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.shirt-card button:hover {
+  background-color: #0056b3;
+}
+
+.app {
+  background-color: rgb(216, 215, 215);
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.5s ease; /* Adiciona uma transição suave */
+}
+
+.header:hover {
+  background-color: darkgray; /* Define a cor quando o mouse está sobre o header */
+}
+
+.footer {
+  background: linear-gradient(to right, #212121, #383838);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
